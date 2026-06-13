@@ -1,0 +1,15 @@
+:root {
+  --primary: #2f6b33;
+  --primary-dark: #245628;
+  --primary-soft: #edf3ec;
+  --background: #f7f7f4;
+  --card: #ffffff;
+  --text: #171717;
+  --muted: #6d706c;
+  --soft-muted: #a7aaa4;
+  --border: #e5e7e2;
+  --shadow: 0 8px 24px rgba(24, 39, 27, 0.08);
+  --radius-lg: 18px;
+  --radius-md: 14px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}

@@ -1,0 +1,98 @@
+body {
+  background: #101010;
+  color: var(--text);
+}
+
+#desktop-block {
+  min-height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  background: #101010;
+  color: white;
+}
+
+.desktop-card {
+  max-width: 420px;
+  text-align: center;
+  background: #181818;
+  border: 1px solid #2a2a2a;
+  border-radius: 28px;
+  padding: 36px 30px;
+}
+
+.desktop-logo {
+  color: #8fcf82;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.desktop-card h1 { font-size: 30px; margin: 0 0 12px; }
+.desktop-card p { margin: 0; color: #bdbdbd; line-height: 1.5; }
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--background);
+}
+
+.app-shell {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: var(--background);
+  position: relative;
+  overflow: hidden;
+}
+
+.screen {
+  min-height: 100vh;
+  padding: 18px 18px calc(94px + var(--safe-bottom));
+}
+
+.status-space {
+  height: 8px;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 430px;
+  background: rgba(255,255,255,0.96);
+  border-top: 1px solid var(--border);
+  padding: 8px 12px calc(8px + var(--safe-bottom));
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  z-index: 20;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: #6d706c;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+}
+
+.nav-item.active { color: var(--primary); }
+
+@media (min-width: 769px) {
+  #desktop-block { display: flex; }
+  #app { display: none; }
+}
