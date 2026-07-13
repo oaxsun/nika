@@ -1,4 +1,4 @@
-/* NIKA Panel v0.1.24
+/* NIKA Panel v0.1.26
    Admin conectado a Firebase/Firestore. Incluye invitaciones beta dentro de Usuarios. */
 const root = document.getElementById('panel-root');
 const icons = {
@@ -20,17 +20,49 @@ function hasConfig() {
 }
 
 function init() {
-  if (!hasConfig()) return renderSetup();
-  firebase.initializeApp(window.NIKA_FIREBASE_CONFIG);
-  auth = firebase.auth();
-  db = firebase.firestore();
-  auth.onAuthStateChanged(async (user) => {
-    state.user = user;
-    if (!user) return renderLogin();
-    if (!isAdmin(user.email)) return renderNotAllowed(user.email);
-    await loadAll();
-    renderPanel();
-  });
+  try {
+    renderBoot();
+    if (!hasConfig()) return renderSetup();
+
+    if (typeof window.firebase === 'undefined') {
+      return renderFatal(
+        'No se cargó Firebase',
+        'El panel necesita conexión a internet para cargar el SDK de Firebase. Abre este archivo con internet o súbelo a hosting. También puedes probar abriendo /panel/index.html desde un servidor local.'
+      );
+    }
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(window.NIKA_FIREBASE_CONFIG);
+    }
+
+    auth = firebase.auth();
+    db = firebase.firestore();
+
+    auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(() => {});
+
+    auth.onAuthStateChanged(async (user) => {
+      try {
+        state.user = user;
+        if (!user) return renderLogin();
+        if (!isAdmin(user.email)) return renderNotAllowed(user.email);
+        renderBoot('Cargando datos reales de Firestore...');
+        await loadAll();
+        renderPanel();
+      } catch (err) {
+        renderFatal('Error cargando el panel', err.message || String(err));
+      }
+    });
+  } catch (err) {
+    renderFatal('Error iniciando el panel', err.message || String(err));
+  }
+}
+
+function renderBoot(message = 'Inicializando NIKA Panel...') {
+  root.innerHTML = `<main class="auth-screen"><section class="auth-card"><div class="brand-mark">${icons.flame}</div><h1>NIKA Panel</h1><p>${escapeHtml(message)}</p></section></main>`;
+}
+
+function renderFatal(title, body) {
+  root.innerHTML = `<main class="auth-screen"><section class="auth-card"><div class="brand-mark">${icons.flame}</div><h1>${escapeHtml(title)}</h1><p>${escapeHtml(body)}</p><div class="error-box">Revisa la consola del navegador si quieres ver el error técnico completo.</div><button class="primary-btn" onclick="location.reload()">Reintentar</button></section></main>`;
 }
 
 function isAdmin(email) {

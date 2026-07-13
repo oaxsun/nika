@@ -7,11 +7,20 @@
   <link rel="stylesheet" href="panel.css" />
 </head>
 <body>
-  <div id="panel-root"></div>
+  <div id="panel-root"><main class="auth-screen"><section class="auth-card"><h1>NIKA Panel</h1><p>Cargando panel...</p></section></main></div>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-firestore-compat.js"></script>
   <script src="../firebase-config.js"></script>
   <script src="panel.js"></script>
+<script>
+    window.addEventListener('error', function(event) {
+      var root = document.getElementById('panel-root');
+      if (!root) return;
+      if (!root.innerHTML || root.innerHTML.indexOf('Cargando panel') !== -1) {
+        root.innerHTML = '<main class="auth-screen"><section class="auth-card"><h1>Error cargando el panel</h1><p>' + String(event.message || 'Error desconocido') + '</p><div class="error-box">Abre la consola para más detalle.</div></section></main>';
+      }
+    });
+  </script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-# NIKA Web Mobile v0.1.25
+# NIKA Web Mobile v0.1.26
 
 Versión Firebase-first con beta privada por invitación.
 
@@ -50,5 +50,11 @@ Desde el panel, pestaña **Planes**, usa **Importar JSON** y selecciona:
 `data/primer-paso-v1.json`
 
 
-## v0.1.25
+## v0.1.26
 - Se reemplazó el logo SVG interno por el archivo real `assets/logo.png` en Login, Invitación y Registro.
+
+
+## v0.1.26
+- Corrige pantalla en blanco del panel con pantalla de carga y errores visibles.
+- Agrega validación si Firebase SDK no cargó.
+- Mantiene login admin con hello@oaxsun.tech.
