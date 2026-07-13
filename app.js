@@ -1,4 +1,4 @@
-/* NIKA Web Mobile v0.1.24
+/* NIKA Web Mobile v0.1.25
    Firebase-first con auth email/password e invitaciones beta. */
 
 const root = document.getElementById('app-root');
@@ -91,7 +91,7 @@ async function init() {
 }
 
 function authLogo() {
-  return `<div class="auth-logo"><div class="auth-mark">${icons.logo}</div><div class="auth-word">N I K A</div></div>`;
+  return `<div class="auth-logo"><img src="assets/logo.png" alt="NIKA" loading="eager" decoding="async"></div>`;
 }
 
 function authDivider() {

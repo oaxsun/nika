@@ -1,4 +1,4 @@
-# NIKA Web Mobile v0.1.24
+# NIKA Web Mobile v0.1.25
 
 Versión Firebase-first con beta privada por invitación.
 
@@ -48,3 +48,7 @@ Publica `firestore.rules` para permitir:
 Desde el panel, pestaña **Planes**, usa **Importar JSON** y selecciona:
 
 `data/primer-paso-v1.json`
+
+
+## v0.1.25
+- Se reemplazó el logo SVG interno por el archivo real `assets/logo.png` en Login, Invitación y Registro.

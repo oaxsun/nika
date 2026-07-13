@@ -1302,9 +1302,8 @@ textarea{
   justify-content:flex-start;
   padding:max(62px,env(safe-area-inset-top) + 28px) 32px calc(22px + env(safe-area-inset-bottom));
 }
-.auth-logo{margin:0 0 clamp(34px,7svh,76px);color:var(--green);width:118px;}
-.auth-mark svg{width:88px;height:auto;display:block;filter:drop-shadow(0 10px 22px rgba(191,255,0,.12));}
-.auth-word{margin-top:12px;color:#fff;letter-spacing:.56em;font-size:1.08rem;font-weight:760;}
+.auth-logo{margin:0 0 clamp(34px,7svh,76px);width:118px;}
+.auth-logo img{display:block;width:118px;height:auto;filter:drop-shadow(0 10px 22px rgba(191,255,0,.12));}
 .auth-form{display:flex;flex-direction:column;gap:16px;}
 .auth-form h1{margin:0;font-size:clamp(2.55rem,12vw,3.9rem);line-height:1.03;letter-spacing:-.065em;font-weight:850;text-shadow:0 4px 20px rgba(255,255,255,.08);}
 .auth-form h1 span{color:#8bd946;}
