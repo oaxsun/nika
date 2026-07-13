@@ -471,3 +471,59 @@ textarea{
   .detail-card h2{display:none;}
   .config-row{display:none;}
 }
+
+/* v0.1.12 - compact training detail card */
+.detail-card{
+  padding:clamp(9px,1.25svh,12px) 13px clamp(8px,1.15svh,11px);
+}
+.detail-card h2{
+  margin-bottom:clamp(6px,.85svh,9px);
+  font-size:clamp(.82rem,3.55vw,.94rem);
+}
+.step{
+  padding:0 0 clamp(8px,1.25svh,12px);
+  grid-template-columns:clamp(32px,8.8vw,40px) 1fr auto;
+  gap:clamp(6px,1.7vw,9px);
+}
+.step-icon{
+  width:clamp(30px,8.3vw,36px);
+  height:clamp(30px,8.3vw,36px);
+}
+.step-icon svg{
+  width:clamp(15px,4.6vw,19px);
+  height:clamp(15px,4.6vw,19px);
+}
+.step:not(:last-child) .step-icon:after{
+  top:clamp(30px,8.3vw,36px);
+  height:clamp(5px,1svh,10px);
+}
+.step-copy h3{
+  font-size:clamp(.7rem,3.25vw,.82rem);
+  margin-bottom:2px;
+}
+.step-copy p{
+  font-size:clamp(.6rem,2.75vw,.7rem);
+  line-height:1.12;
+}
+.step-time{
+  font-size:clamp(.72rem,3.35vw,.88rem);
+}
+
+@media (max-height:720px){
+  .detail-card{padding:8px 12px;}
+  .detail-card h2{font-size:.78rem;margin-bottom:5px;}
+  .step{padding-bottom:7px;grid-template-columns:30px 1fr auto;}
+  .step-icon{width:27px;height:27px;}
+  .step-icon svg{width:14px;height:14px;}
+  .step:not(:last-child) .step-icon:after{top:27px;height:5px;}
+  .step-copy h3{font-size:.68rem;}
+  .step-time{font-size:.72rem;}
+}
+
+@media (max-height:640px){
+  .detail-card{padding:8px 12px;}
+  .step{padding-bottom:6px;}
+  .step-icon{width:25px;height:25px;}
+  .step-icon svg{width:13px;height:13px;}
+  .step:not(:last-child) .step-icon:after{top:25px;height:4px;}
+}
