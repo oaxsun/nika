@@ -1,20 +1,16 @@
-# NIKA Web Mobile
+# NIKA Web Mobile v0.1.2
 
-Primera base de NIKA Web en formato mobile-only/PWA ligera.
+Esta versión corrige la pantalla en blanco.
 
-## Incluye
+## Cómo abrir
 
-- Home mobile inspirado en la pantalla aprobada.
-- Bloqueo desktop: la app solo se muestra en pantallas menores o iguales a 768px.
-- Estilo app-like: fondo oscuro, cards glass, acento verde neón y bottom nav fija.
-- Datos mockeados en `src/data/mockHome.ts`, listos para conectar después a backend.
-- Manifest PWA básico.
+Abre `index.html` directamente con doble clic. No requiere `npm install`, servidor ni build.
 
-## Ejecutar
+## Comportamiento
 
-```bash
-npm install
-npm run dev
-```
+- En móvil o modo responsive: muestra el Home de NIKA.
+- En desktop ancho: muestra el mensaje de que NIKA solo está disponible en móvil.
 
-Abrir en móvil o usar vista responsive del navegador.
+## Nota
+
+Esta versión es estática y ligera para validar visualmente el Home. Después se puede pasar a React/Vite cuando ya esté validado el diseño.

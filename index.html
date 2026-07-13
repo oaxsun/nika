@@ -1,17 +1,78 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#071015" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="NIKA" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <title>NIKA</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#061016" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>NIKA</title>
+  <style>
+    :root{--bg:#050c10;--card:rgba(19,31,39,.76);--line:rgba(255,255,255,.08);--text:#f7fafc;--muted:rgba(247,250,252,.72);--soft:rgba(247,250,252,.52);--green:#baff00;--green2:#d7ff00;--dark:#081116;font-family:Inter,ui-rounded,"SF Pro Rounded","SF Pro Display",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}html,body{min-height:100%;margin:0;background:var(--bg)}body{overflow-x:hidden}button{font:inherit;border:0;background:none;color:inherit}.desktop-lock{display:none}.app{position:relative;min-height:100svh;overflow:hidden;background:radial-gradient(circle at 6% 4%,rgba(53,78,90,.34),transparent 34%),radial-gradient(circle at 94% 0,rgba(95,110,118,.18),transparent 32%),linear-gradient(145deg,#061016 0%,#0a141b 45%,#03080b 100%)}.app:before{content:"";position:fixed;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.014) 1px,transparent 1px);background-size:42px 42px;mask-image:radial-gradient(circle at 50% 30%,#000 0,transparent 72%);pointer-events:none}.glow{position:fixed;pointer-events:none;filter:blur(38px);opacity:.6}.g1{top:120px;left:-80px;width:210px;height:280px;background:rgba(80,112,120,.22)}.g2{right:-100px;bottom:80px;width:240px;height:240px;background:rgba(186,255,0,.08)}.shell{position:relative;z-index:1;width:min(100%,450px);margin:0 auto;padding:max(24px,env(safe-area-inset-top)) 16px calc(132px + env(safe-area-inset-bottom))}.top{display:flex;align-items:flex-start;justify-content:space-between;padding:8px 6px 24px}.top h1{margin:0 0 22px;font-size:clamp(2.34rem,10.2vw,3.28rem);line-height:1.04;letter-spacing:-.055em;font-weight:860}.streak{margin:0;font-size:clamp(1.08rem,4.8vw,1.42rem);font-weight:780;letter-spacing:-.025em}.streak b{color:var(--green)}.bell{position:relative;display:grid;place-items:center;width:46px;height:46px;margin-top:10px}.bell svg{width:30px;height:30px}.dot{position:absolute;top:7px;right:6px;width:13px;height:13px;border-radius:999px;background:var(--green);box-shadow:0 0 16px rgba(186,255,0,.9)}.card{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,rgba(24,38,47,.84),rgba(11,20,26,.74));box-shadow:0 24px 70px rgba(0,0,0,.38),inset 0 1px rgba(255,255,255,.045);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}.card+.card{margin-top:18px}.label{margin:0 0 12px;color:var(--green);font-size:.78rem;font-weight:850;letter-spacing:.055em}.muted{color:var(--muted)}.plan{min-height:230px;padding:28px 22px 22px}.plan h2,.session h2{margin:0;font-size:clamp(1.76rem,7vw,2.2rem);line-height:1.05;letter-spacing:-.04em;font-weight:850}.plan .muted{margin:16px 0 0;font-size:clamp(1.18rem,5.3vw,1.42rem);font-weight:560}.mountain{position:absolute;right:10px;top:22px;width:48%;max-width:220px;opacity:.94}.divider{height:1px;background:linear-gradient(90deg,rgba(255,255,255,.075),rgba(255,255,255,.035));margin:76px 0 18px}.small{margin:0 0 10px;font-size:1.05rem;font-weight:570;color:var(--muted)}.progress-copy{margin:0 0 16px;font-size:1.22rem;font-weight:560;letter-spacing:-.02em;color:var(--muted)}.progress-copy b{color:var(--green);font-size:1.45rem}.bar{height:8px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden}.bar span{display:block;height:100%;width:60%;border-radius:999px;background:linear-gradient(90deg,var(--green2),#9dff00);box-shadow:0 0 16px rgba(186,255,0,.5)}.session{padding:26px 16px 18px}.session h2{font-size:clamp(1.48rem,6vw,1.78rem);margin-bottom:26px}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;text-align:center}.metric{min-width:0}.circle{display:grid;place-items:center;width:47px;height:47px;margin:0 auto 11px;border:1px solid rgba(255,255,255,.09);border-radius:999px;background:rgba(255,255,255,.035);color:var(--green);box-shadow:inset 0 1px rgba(255,255,255,.035)}.circle svg{width:25px;height:25px}.metric p{margin:0 0 12px;font-size:.76rem;font-weight:680;letter-spacing:-.025em;white-space:nowrap}.metric strong{color:var(--muted);font-size:.92rem;font-weight:620}.metric:last-child strong{color:var(--text);font-weight:850}.cta{display:flex;align-items:center;justify-content:center;gap:16px;width:100%;height:58px;margin-top:25px;border-radius:999px;background:linear-gradient(100deg,#d9ff00,#a8f600);color:#071014;font-size:1.2rem;font-weight:880;letter-spacing:-.03em;box-shadow:0 16px 42px rgba(186,255,0,.22),inset 0 1px rgba(255,255,255,.38)}.cta svg{width:24px;height:24px;fill:currentColor}.summary{padding:14px 16px 4px;margin-bottom:4px}.row{display:grid;grid-template-columns:58px 1fr auto;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.065)}.row:last-child{border-bottom:0}.row-icon{display:grid;place-items:center;width:58px;height:58px;border-radius:999px;background:rgba(255,255,255,.052);color:var(--green)}.row-icon svg{width:31px;height:31px}.copy h3{margin:0 0 7px;font-size:1.08rem;line-height:1.1;letter-spacing:-.03em}.copy p{margin:0;color:var(--muted);font-size:.98rem;line-height:1.35}.copy .accent,.copy .distance{color:var(--green);font-weight:850}.copy .distance{font-size:1.38rem}.week{min-width:124px;text-align:center}.week p{margin:0 0 9px;color:var(--muted);font-size:.82rem;line-height:1.15}.days{display:flex;justify-content:center;gap:8px;margin-bottom:8px}.day{display:grid;place-items:center;width:40px;height:40px;border-radius:999px;border:1px solid rgba(255,255,255,.16);color:rgba(255,255,255,.42)}.day.active{border-color:rgba(186,255,0,.7);color:var(--green);box-shadow:0 0 18px rgba(186,255,0,.12)}.day svg{width:21px;height:21px;fill:currentColor}.week strong{font-size:.92rem;letter-spacing:-.02em}.chev{width:27px;height:27px;color:var(--text);opacity:.95}.bottom{position:fixed;z-index:4;left:50%;bottom:max(16px,env(safe-area-inset-bottom));transform:translateX(-50%);display:grid;grid-template-columns:repeat(5,1fr);align-items:center;width:min(calc(100% - 48px),400px);height:68px;padding:0 16px;border:1px solid rgba(255,255,255,.105);border-radius:999px;background:linear-gradient(145deg,rgba(44,56,64,.8),rgba(18,28,35,.78));box-shadow:0 20px 58px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.06);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px)}.nav-btn{position:relative;display:grid;place-items:center;height:54px;color:rgba(255,255,255,.72)}.nav-btn.active{color:var(--green)}.nav-btn svg{width:29px;height:29px}.nav-btn.active:after{content:"";position:absolute;bottom:4px;width:6px;height:6px;border-radius:999px;background:var(--green)}@media (min-width:769px){body{background:#050c10}.app{display:none}.desktop-lock{min-height:100vh;display:grid;place-items:center;padding:28px;background:radial-gradient(circle at 50% 0,rgba(186,255,0,.12),transparent 30%),linear-gradient(145deg,#061016,#03080b)}.lock-card{width:min(460px,100%);padding:42px 34px;border-radius:30px;border:1px solid rgba(255,255,255,.09);background:linear-gradient(145deg,rgba(24,38,47,.84),rgba(11,20,26,.74));text-align:center;box-shadow:0 26px 70px rgba(0,0,0,.45)}.phone{display:grid;place-items:center;width:78px;height:78px;margin:0 auto 18px;border-radius:24px;background:rgba(186,255,0,.12);color:var(--green)}.phone svg{width:44px;height:44px}.lock-card .eyebrow{margin:0 0 12px;color:var(--green);font-size:.78rem;font-weight:900;letter-spacing:.14em}.lock-card h1{margin:0 0 14px;font-size:2.1rem;letter-spacing:-.05em}.lock-card p{margin:0;color:var(--muted);font-size:1.05rem;line-height:1.55}}@media (max-width:390px){.shell{padding-left:14px;padding-right:14px}.grid{gap:2px}.circle{width:43px;height:43px}.metric p{font-size:.68rem}.week{min-width:112px}.day{width:34px;height:34px}.row{grid-template-columns:54px 1fr auto;gap:10px}.row-icon{width:54px;height:54px}.bottom{width:calc(100% - 34px)}}
+  </style>
+</head>
+<body>
+  <main class="desktop-lock" aria-label="NIKA solo móvil">
+    <section class="lock-card">
+      <div class="phone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+      <p class="eyebrow">NIKA WEB</p>
+      <h1>NIKA vive en tu celular.</h1>
+      <p>Esta versión está diseñada exclusivamente para móvil. Abre esta página desde tu teléfono para comenzar a correr con NIKA.</p>
+    </section>
+  </main>
+
+  <main class="app">
+    <div class="glow g1"></div><div class="glow g2"></div>
+    <section class="shell">
+      <header class="top">
+        <div>
+          <h1>Hola, Eduardo <span>👋</span></h1>
+          <p class="streak"><span>🔥</span> Racha: <b>24 semanas</b></p>
+        </div>
+        <button class="bell" aria-label="Notificaciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg><span class="dot"></span></button>
+      </header>
+
+      <section class="card plan">
+        <p class="label">PLAN ACTUAL</p>
+        <h2>Primer Paso</h2>
+        <p class="muted">Semana 4 de 12</p>
+        <svg class="mountain" viewBox="0 0 360 210" aria-hidden="true"><defs><linearGradient id="peak" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2b3741"/><stop offset="1" stop-color="#111b22"/></linearGradient><linearGradient id="road" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#d7ff00"/><stop offset="1" stop-color="#8eea00"/></linearGradient></defs><g opacity=".72"><path d="M40 168 L132 54 L222 168 Z" fill="url(#peak)"/><path d="M100 168 L188 36 L310 168 Z" fill="#202a33"/><path d="M188 36 L224 92 L206 84 L194 110 L170 75 Z" fill="#3b4650"/><path d="M258 168 L312 88 L354 168 Z" fill="#26313a"/><path d="M312 88 L332 126 L318 118 L303 137 L293 116 Z" fill="#4b5660"/><path d="M132 54 L159 96 L144 89 L127 118 L114 85 Z" fill="#55606a"/></g><path d="M211 18 L211 50" stroke="#bfff00" stroke-width="6" stroke-linecap="round"/><path d="M215 19 C236 12 244 30 265 22 L265 51 C244 59 236 41 215 49 Z" fill="#bfff00"/><path d="M211 55 C180 87 258 112 211 143 C180 163 170 188 167 208 L215 208 C210 180 268 154 241 124 C219 99 178 88 211 55 Z" fill="url(#road)"/><g opacity=".42" fill="#aab4bd"><ellipse cx="74" cy="42" rx="24" ry="14"/><ellipse cx="105" cy="38" rx="26" ry="21"/><ellipse cx="136" cy="40" rx="23" ry="19"/><rect x="60" y="42" width="95" height="12" rx="6"/></g></svg>
+        <div class="divider"></div>
+        <p class="small">Progreso del plan</p>
+        <p class="progress-copy"><b>60%</b> del camino completado</p>
+        <div class="bar"><span></span></div>
+      </section>
+
+      <section class="card session">
+        <p class="label">SESIÓN DE HOY</p>
+        <h2>Semana 4 • Día 2</h2>
+        <div class="grid">
+          <div class="metric"><div class="circle"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c4.2 0 7-2.9 7-6.8 0-2.7-1.4-5.2-3.6-7.4-.5 2.2-1.7 3.2-3 3.8.4-3-1-5.7-3.4-8.1.1 4-2.4 5.8-3.3 8.8C4.6 16.3 7.5 22 12 22Z"/></svg></div><p>Calentamiento</p><strong>8 min</strong></div>
+          <div class="metric"><div class="circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13" cy="4" r="2"/><path d="M4 17l4-4 2-6 5 4 4 1"/><path d="M12 12l-2 5 4 4"/><path d="M9 9l-4 1"/></svg></div><p>Correr</p><strong>12 min</strong></div>
+          <div class="metric"><div class="circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v5l-3 5-4 3"/><path d="M12 8l4 4 4 1"/><path d="M9 13l3 4v4"/><circle cx="12" cy="3" r="1"/></svg></div><p>Caminar</p><strong>16 min</strong></div>
+          <div class="metric"><div class="circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h11a4 4 0 1 0-4-4"/><path d="M3 18h9a3 3 0 1 0-3-3"/></svg></div><p>Enfriamiento</p><strong>5 min</strong></div>
+          <div class="metric"><div class="circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="13" r="8"/><path d="M12 9v5l3 2"/><path d="M9 2h6"/></svg></div><p>Total</p><strong>41 min</strong></div>
+        </div>
+        <button class="cta"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>Comenzar sesión</button>
+      </section>
+
+      <section class="card summary">
+        <div class="row">
+          <div class="row-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 22c4.2 0 7-2.9 7-6.8 0-2.7-1.4-5.2-3.6-7.4-.5 2.2-1.7 3.2-3 3.8.4-3-1-5.7-3.4-8.1.1 4-2.4 5.8-3.3 8.8C4.6 16.3 7.5 22 12 22Z"/></svg></div>
+          <div class="copy"><h3>Racha: 24 semanas</h3><p>Has completado<br>24 semanas consecutivas.</p></div>
+          <div class="week"><p>Suma racha esta semana</p><div class="days"><span class="day active"><svg viewBox="0 0 24 24"><path d="M12 22c4.2 0 7-2.9 7-6.8 0-2.7-1.4-5.2-3.6-7.4-.5 2.2-1.7 3.2-3 3.8.4-3-1-5.7-3.4-8.1.1 4-2.4 5.8-3.3 8.8C4.6 16.3 7.5 22 12 22Z"/></svg></span><span class="day active"><svg viewBox="0 0 24 24"><path d="M12 22c4.2 0 7-2.9 7-6.8 0-2.7-1.4-5.2-3.6-7.4-.5 2.2-1.7 3.2-3 3.8.4-3-1-5.7-3.4-8.1.1 4-2.4 5.8-3.3 8.8C4.6 16.3 7.5 22 12 22Z"/></svg></span><span class="day"><svg viewBox="0 0 24 24"><path d="M12 22c4.2 0 7-2.9 7-6.8 0-2.7-1.4-5.2-3.6-7.4-.5 2.2-1.7 3.2-3 3.8.4-3-1-5.7-3.4-8.1.1 4-2.4 5.8-3.3 8.8C4.6 16.3 7.5 22 12 22Z"/></svg></span></div><strong>2 de 3 días</strong></div>
+        </div>
+        <button class="row"><div class="row-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M5 21V4c4-2 7 2 11 0 1.2-.6 2.2-.8 3-.7v10.4c-3.5-.7-6.5 2.6-10 .5-1.5-.9-2.8-.9-4-.3Z"/></svg></div><div class="copy"><h3>Progreso del plan</h3><p class="accent">Semana 4 de 12</p><p>10 de 36 sesiones completadas</p></div><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9 18l6-6-6-6"/></svg></button>
+        <button class="row"><div class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 17c3-3 5-3 8 0s5 3 8 0"/><path d="M7 13c2-2 4-2 6 0s4 2 6 0"/><path d="M9 8h.01M15 8h.01"/></svg></div><div class="copy"><h3>Última actividad</h3><p class="distance">8.2 km</p><p>Hace 2 días</p></div><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M9 18l6-6-6-6"/></svg></button>
+      </section>
+    </section>
+    <nav class="bottom" aria-label="Navegación principal">
+      <button class="nav-btn active" aria-label="Inicio"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 11.5 12 4l9 7.5V21h-6v-6H9v6H3Z"/></svg></button>
+      <button class="nav-btn" aria-label="Calendario"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg></button>
+      <button class="nav-btn" aria-label="Run"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="13" cy="4" r="2"/><path d="M4 17l4-4 2-6 5 4 4 1"/><path d="M12 12l-2 5 4 4"/><path d="M9 9l-4 1"/></svg></button>
+      <button class="nav-btn" aria-label="Ranking"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0Z"/><path d="M5 6H3v3a3 3 0 0 0 4 2.8M19 6h2v3a3 3 0 0 1-4 2.8"/></svg></button>
+      <button class="nav-btn" aria-label="Perfil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></button>
+    </nav>
+  </main>
+</body>
 </html>
