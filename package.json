@@ -1,20 +1,16 @@
 {
   "name": "nika-web-mobile",
-  "version": "0.1.0",
+  "version": "0.1.21",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "tsc && vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "serve": "npx serve .",
+    "import:primer-paso": "node scripts/importPrimerPaso.mjs ./serviceAccountKey.json ./data/primer-paso-v1.json"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "typescript": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest"
+    "firebase-admin": "^12.7.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
 }

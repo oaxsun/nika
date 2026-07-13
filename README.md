@@ -1,51 +1,50 @@
-# NIKA Web Mobile v0.1.8
+# NIKA Web Mobile v0.1.24
 
-Versión estática dividida en archivos separados:
+Versión Firebase-first con beta privada por invitación.
 
-- `index.html` estructura base
-- `styles.css` estilos visuales
-- `app.js` render de UI y navegación visual
+## App móvil
 
-Abre `index.html` directo en el navegador. En desktop muestra el bloqueo mobile-only; en móvil muestra la app.
+- Login con Firebase Email/Password.
+- Registro bloqueado por código de invitación.
+- Flujo: Login → Invitación → Registro → Home.
+- Ya no usa Auth anónimo para crear usuarios reales.
+- Home, preview, entrenamiento activo y resumen leen datos reales de Firestore.
 
+## Panel admin
 
-## v0.1.6
-- Ajuste fino de tipografía: textos más pequeños, ligeros y cercanos a la maqueta.
-- Se conserva estructura estática HTML/CSS/JS y SVG inline tipo Lucide.
+Ruta: `panel/index.html`
 
+Tabs:
 
-## v0.1.7
-- Fondo oscuro estático ajustado a referencia Figma.
-- Header sin transparencia ni blur.
-- Fuente del saludo y racha ligeramente más grande.
+- Planes
+- Usuarios
+- Analytics
 
+Dentro de **Usuarios** se agregó el control de invitaciones beta:
 
-## v0.1.8
-- Fuente base cambiada a Nunito.
-- Header ahora abarca todo el ancho de la pantalla.
-- Header sólido del mismo color del background, sin transparencia, blur ni sombra.
-- Saludo y racha ligeramente más grandes.
+- Crear código de invitación.
+- Ver estado, usos y máximo de usos.
 
-## v0.1.12
-- Agregada pantalla Preview de entrenamiento.
-- Al tocar “Comenzar sesión” en Home se abre el preview.
-- Preview con header propio, resumen, detalle, configuración y CTA “Comenzar entrenamiento”.
-- Datos ajustados para primera sesión del usuario: Semana 1, Día 1, Primer Run.
+## Firebase
 
+Proyecto conectado: `nika-9c390`.
 
-## v0.1.12
-- Header del preview fijo/estático durante scroll.
-- Preview adaptativo para caber en pantalla sin scroll.
-- Ajustes de altura, tipografía y espaciados responsive por alto de pantalla.
+Admin autorizado:
 
+- `hello@oaxsun.tech`
 
-## v0.1.12
-- Header del preview sin bloque/relleno sólido visible.
-- Separación corregida para que el contenido no se encime debajo del header fijo.
-- Preview más compacto y adaptable por alto de pantalla.
+Activa en Firebase Authentication:
 
+- Email/Password
 
-## v0.1.12
-- Detalle del entrenamiento más compacto.
-- Menor altura del contenedor de detalles.
-- Pasos, íconos y separadores verticales reducidos para que respire mejor la pantalla.
+Publica `firestore.rules` para permitir:
+
+- Lectura de planes a usuarios registrados.
+- Gestión admin de planes, usuarios e invitaciones.
+- Validación de códigos de invitación desde la app.
+
+## Importar Primer Paso
+
+Desde el panel, pestaña **Planes**, usa **Importar JSON** y selecciona:
+
+`data/primer-paso-v1.json`

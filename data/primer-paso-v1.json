@@ -1,0 +1,3513 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "primer-paso-v1",
+  "slug": "primer-paso",
+  "name": "Primer Paso",
+  "version": 1,
+  "level": 1,
+  "difficulty": "beginner",
+  "goal": {
+    "id": "build-running-habit",
+    "label": "Crear el hábito de correr",
+    "completionTarget": "Correr 30 minutos continuos a un ritmo cómodo"
+  },
+  "description": "Plan progresivo de 12 semanas para personas que están comenzando a correr.",
+  "durationWeeks": 12,
+  "sessionsPerWeek": 3,
+  "totalSessions": 36,
+  "schedule": {
+    "recommendedRestDaysBetweenSessions": 1,
+    "flexibleDays": true
+  },
+  "rules": {
+    "warmupSeconds": 300,
+    "cooldownSeconds": 300,
+    "allowRepeatSession": true,
+    "allowSkipSession": false,
+    "completionThreshold": 0.98,
+    "weeklyStreakRequirement": 3,
+    "weeklyStreakBonusXp": 100
+  },
+  "presentation": {
+    "accentColor": "#648362",
+    "icon": "mountain-flag",
+    "coverImageKey": "primer-paso-cover"
+  },
+  "safety": {
+    "disclaimer": "Detén la sesión si sientes dolor, mareo, presión en el pecho o dificultad inusual para respirar. Consulta a un profesional de salud antes de comenzar si tienes una condición médica o llevas mucho tiempo sin hacer actividad física.",
+    "effortGuide": "La mayor parte del plan debe sentirse cómoda. Debes poder hablar en frases cortas mientras corres."
+  },
+  "aggregate": {
+    "totalTrainingMinutes": 1344.5,
+    "totalRunMinutes": 858.5,
+    "totalWalkMinutes": 486.0
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Empezar sin presión",
+      "focus": "Corre lo bastante lento como para poder hablar en frases cortas.",
+      "sessions": [
+        {
+          "id": "primer-paso-w01-d01",
+          "week": 1,
+          "day": 1,
+          "sequence": 1,
+          "title": "Semana 1 · Día 1",
+          "name": "Primeros pasos",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 25.0,
+          "momentCount": 12,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 300,
+            "walkSeconds": 600,
+            "cooldownSeconds": 300,
+            "totalSeconds": 1500
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 5.0,
+            "walkMinutes": 10.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 25.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w01d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 60,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 60,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 60,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 60,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 60,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d01s12",
+              "order": 12,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w01-d02",
+          "week": 1,
+          "day": 2,
+          "sequence": 2,
+          "title": "Semana 1 · Día 2",
+          "name": "Encuentra tu ritmo",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 27.5,
+          "momentCount": 12,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 450,
+            "walkSeconds": 600,
+            "cooldownSeconds": 300,
+            "totalSeconds": 1650
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 7.5,
+            "walkMinutes": 10.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 27.5
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w01d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 90,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 90,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 90,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 90,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 90,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d02s12",
+              "order": 12,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w01-d03",
+          "week": 1,
+          "day": 3,
+          "sequence": 3,
+          "title": "Semana 1 · Día 3",
+          "name": "Un poco más",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 30.0,
+          "momentCount": 12,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 600,
+            "walkSeconds": 600,
+            "cooldownSeconds": 300,
+            "totalSeconds": 1800
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 10.0,
+            "walkMinutes": 10.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 30.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w01d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w01d03s12",
+              "order": 12,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Crear ritmo",
+      "focus": "No busques velocidad; busca terminar cada bloque con control.",
+      "sessions": [
+        {
+          "id": "primer-paso-w02-d01",
+          "week": 2,
+          "day": 1,
+          "sequence": 4,
+          "title": "Semana 2 · Día 1",
+          "name": "Más tiempo corriendo",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 31.0,
+          "momentCount": 14,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 720,
+            "walkSeconds": 540,
+            "cooldownSeconds": 300,
+            "totalSeconds": 1860
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 12.0,
+            "walkMinutes": 9.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 31.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w02d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s12",
+              "order": 12,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 120,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s13",
+              "order": 13,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d01s14",
+              "order": 14,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w02-d02",
+          "week": 2,
+          "day": 2,
+          "sequence": 5,
+          "title": "Semana 2 · Día 2",
+          "name": "Trote cómodo",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 35.0,
+          "momentCount": 12,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 900,
+            "walkSeconds": 600,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2100
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 15.0,
+            "walkMinutes": 10.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 35.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w02d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d02s12",
+              "order": 12,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w02-d03",
+          "week": 2,
+          "day": 3,
+          "sequence": 6,
+          "title": "Semana 2 · Día 3",
+          "name": "Constancia",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 37.0,
+          "momentCount": 14,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1080,
+            "walkSeconds": 540,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2220
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 18.0,
+            "walkMinutes": 9.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 37.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w02d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s12",
+              "order": 12,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 180,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s13",
+              "order": 13,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 90,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w02d03s14",
+              "order": 14,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Construir la base",
+      "focus": "Mantén hombros relajados y pasos cortos.",
+      "sessions": [
+        {
+          "id": "primer-paso-w03-d01",
+          "week": 3,
+          "day": 1,
+          "sequence": 7,
+          "title": "Semana 3 · Día 1",
+          "name": "Bloques de cuatro",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 40.0,
+          "momentCount": 12,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1200,
+            "walkSeconds": 600,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 20.0,
+            "walkMinutes": 10.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w03d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 240,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 240,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 240,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 240,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s10",
+              "order": 10,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 240,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s11",
+              "order": 11,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d01s12",
+              "order": 12,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w03-d02",
+          "week": 3,
+          "day": 2,
+          "sequence": 8,
+          "title": "Semana 3 · Día 2",
+          "name": "Bloques de cinco",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 38.0,
+          "momentCount": 10,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1200,
+            "walkSeconds": 480,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2280
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 20.0,
+            "walkMinutes": 8.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 38.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w03d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 300,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 300,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 300,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 300,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d02s10",
+              "order": 10,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w03-d03",
+          "week": 3,
+          "day": 3,
+          "sequence": 9,
+          "title": "Semana 3 · Día 3",
+          "name": "Bloques de seis",
+          "difficulty": "easy",
+          "effortScale": 1,
+          "estimatedMinutes": 42.0,
+          "momentCount": 10,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1440,
+            "walkSeconds": 480,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2520
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 24.0,
+            "walkMinutes": 8.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 42.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w03d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 360,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 360,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 360,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s08",
+              "order": 8,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 360,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s09",
+              "order": 9,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w03d03s10",
+              "order": 10,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Bloques más largos",
+      "focus": "Las caminatas son parte del entrenamiento, no un fracaso.",
+      "sessions": [
+        {
+          "id": "primer-paso-w04-d01",
+          "week": 4,
+          "day": 1,
+          "sequence": 10,
+          "title": "Semana 4 · Día 1",
+          "name": "Ocho minutos",
+          "difficulty": "easy",
+          "effortScale": 2,
+          "estimatedMinutes": 40.0,
+          "momentCount": 8,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1440,
+            "walkSeconds": 360,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 24.0,
+            "walkMinutes": 6.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w04d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 480,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 480,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 480,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d01s08",
+              "order": 8,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w04-d02",
+          "week": 4,
+          "day": 2,
+          "sequence": 11,
+          "title": "Semana 4 · Día 2",
+          "name": "Diez minutos",
+          "difficulty": "easy",
+          "effortScale": 2,
+          "estimatedMinutes": 46.0,
+          "momentCount": 8,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1800,
+            "walkSeconds": 360,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2760
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 30.0,
+            "walkMinutes": 6.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 46.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w04d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 600,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 600,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s05",
+              "order": 5,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s06",
+              "order": 6,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 600,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s07",
+              "order": 7,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d02s08",
+              "order": 8,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w04-d03",
+          "week": 4,
+          "day": 3,
+          "sequence": 12,
+          "title": "Semana 4 · Día 3",
+          "name": "Dos bloques largos",
+          "difficulty": "easy",
+          "effortScale": 2,
+          "estimatedMinutes": 37.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1440,
+            "walkSeconds": 180,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2220
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 24.0,
+            "walkMinutes": 3.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 37.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w04d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 720,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d03s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 180,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d03s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 720,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w04d03s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Ganar confianza",
+      "focus": "Respira con calma y reduce el ritmo antes de detenerte.",
+      "sessions": [
+        {
+          "id": "primer-paso-w05-d01",
+          "week": 5,
+          "day": 1,
+          "sequence": 13,
+          "title": "Semana 5 · Día 1",
+          "name": "Quince y diez",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 38.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1500,
+            "walkSeconds": 180,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2280
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 25.0,
+            "walkMinutes": 3.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 38.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w05d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 900,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d01s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 180,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d01s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 600,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d01s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w05-d02",
+          "week": 5,
+          "day": 2,
+          "sequence": 14,
+          "title": "Semana 5 · Día 2",
+          "name": "Doce y doce",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 36.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1440,
+            "walkSeconds": 120,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2160
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 24.0,
+            "walkMinutes": 2.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 36.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w05d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 720,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 720,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w05-d03",
+          "week": 5,
+          "day": 3,
+          "sequence": 15,
+          "title": "Semana 5 · Día 3",
+          "name": "Dieciocho minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 39.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1560,
+            "walkSeconds": 180,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2340
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 26.0,
+            "walkMinutes": 3.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 39.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w05d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1080,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d03s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 180,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d03s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 480,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w05d03s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Superar los veinte",
+      "focus": "La constancia importa más que el ritmo.",
+      "sessions": [
+        {
+          "id": "primer-paso-w06-d01",
+          "week": 6,
+          "day": 1,
+          "sequence": 16,
+          "title": "Semana 6 · Día 1",
+          "name": "Veinte minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 41.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1680,
+            "walkSeconds": 180,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2460
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 28.0,
+            "walkMinutes": 3.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 41.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w06d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1200,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d01s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 180,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d01s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 480,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d01s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w06-d02",
+          "week": 6,
+          "day": 2,
+          "sequence": 17,
+          "title": "Semana 6 · Día 2",
+          "name": "Quince y quince",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 42.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1800,
+            "walkSeconds": 120,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2520
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 30.0,
+            "walkMinutes": 2.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 42.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w06d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 900,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 900,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w06-d03",
+          "week": 6,
+          "day": 3,
+          "sequence": 18,
+          "title": "Semana 6 · Día 3",
+          "name": "Veintidós minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 42.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1740,
+            "walkSeconds": 180,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2520
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 29.0,
+            "walkMinutes": 3.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 42.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w06d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1320,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d03s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 180,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d03s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 420,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w06d03s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Correr sin pausas",
+      "focus": "Empieza más lento de lo que crees necesario.",
+      "sessions": [
+        {
+          "id": "primer-paso-w07-d01",
+          "week": 7,
+          "day": 1,
+          "sequence": 19,
+          "title": "Semana 7 · Día 1",
+          "name": "Veintitrés minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 33.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1380,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 1980
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 23.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 33.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w07d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1380,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d01s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w07-d02",
+          "week": 7,
+          "day": 2,
+          "sequence": 20,
+          "title": "Semana 7 · Día 2",
+          "name": "Dieciocho y diez",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 40.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1680,
+            "walkSeconds": 120,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 28.0,
+            "walkMinutes": 2.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w07d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1080,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 600,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w07-d03",
+          "week": 7,
+          "day": 3,
+          "sequence": 21,
+          "title": "Semana 7 · Día 3",
+          "name": "Veinticuatro minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 34.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1440,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2040
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 24.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 34.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w07d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1440,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w07d03s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Consolidar el hábito",
+      "focus": "Mantén un esfuerzo cómodo de principio a fin.",
+      "sessions": [
+        {
+          "id": "primer-paso-w08-d01",
+          "week": 8,
+          "day": 1,
+          "sequence": 22,
+          "title": "Semana 8 · Día 1",
+          "name": "Veinticinco minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 35.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1500,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2100
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 25.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 35.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w08d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1500,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d01s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w08-d02",
+          "week": 8,
+          "day": 2,
+          "sequence": 23,
+          "title": "Semana 8 · Día 2",
+          "name": "Quince y doce",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 39.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1620,
+            "walkSeconds": 120,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2340
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 27.0,
+            "walkMinutes": 2.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 39.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w08d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 900,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 720,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w08-d03",
+          "week": 8,
+          "day": 3,
+          "sequence": 24,
+          "title": "Semana 8 · Día 3",
+          "name": "Veintiséis minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 36.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1560,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2160
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 26.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 36.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w08d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1560,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w08d03s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "title": "Acercarte a la meta",
+      "focus": "Si un día cuesta más, repite la sesión anterior.",
+      "sessions": [
+        {
+          "id": "primer-paso-w09-d01",
+          "week": 9,
+          "day": 1,
+          "sequence": 25,
+          "title": "Semana 9 · Día 1",
+          "name": "Veintisiete minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 37.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1620,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2220
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 27.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 37.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w09d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1620,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d01s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w09-d02",
+          "week": 9,
+          "day": 2,
+          "sequence": 26,
+          "title": "Semana 9 · Día 2",
+          "name": "Dieciocho y diez",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 40.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1680,
+            "walkSeconds": 120,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 28.0,
+            "walkMinutes": 2.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w09d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1080,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 600,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w09-d03",
+          "week": 9,
+          "day": 3,
+          "sequence": 27,
+          "title": "Semana 9 · Día 3",
+          "name": "Veintiocho minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 38.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1680,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2280
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 28.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 38.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w09d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1680,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w09d03s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "title": "Casi treinta",
+      "focus": "Tu objetivo es controlar el esfuerzo, no competir.",
+      "sessions": [
+        {
+          "id": "primer-paso-w10-d01",
+          "week": 10,
+          "day": 1,
+          "sequence": 28,
+          "title": "Semana 10 · Día 1",
+          "name": "Consolida veintiocho",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 38.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1680,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2280
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 28.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 38.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w10d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1680,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d01s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w10-d02",
+          "week": 10,
+          "day": 2,
+          "sequence": 29,
+          "title": "Semana 10 · Día 2",
+          "name": "Veinte y nueve",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 41.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1740,
+            "walkSeconds": 120,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2460
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 29.0,
+            "walkMinutes": 2.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 41.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w10d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1200,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 120,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 540,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w10-d03",
+          "week": 10,
+          "day": 3,
+          "sequence": 30,
+          "title": "Semana 10 · Día 3",
+          "name": "Veintinueve minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 39.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1740,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2340
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 29.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 39.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w10d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1740,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w10d03s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Treinta minutos",
+      "focus": "Celebra los treinta minutos, pero mantén el trote suave.",
+      "sessions": [
+        {
+          "id": "primer-paso-w11-d01",
+          "week": 11,
+          "day": 1,
+          "sequence": 31,
+          "title": "Semana 11 · Día 1",
+          "name": "Tus primeros treinta",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 40.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1800,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 30.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w11d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w11d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1800,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w11d01s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w11-d02",
+          "week": 11,
+          "day": 2,
+          "sequence": 32,
+          "title": "Semana 11 · Día 2",
+          "name": "Recuperación activa",
+          "difficulty": "recovery",
+          "effortScale": 1,
+          "estimatedMinutes": 35.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1500,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2100
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 25.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 35.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w11d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w11d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1500,
+              "instruction": "Trote muy cómodo. Debes poder conversar.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w11d02s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w11-d03",
+          "week": 11,
+          "day": 3,
+          "sequence": 33,
+          "title": "Semana 11 · Día 3",
+          "name": "Treinta con confianza",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 40.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1800,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 30.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w11d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w11d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1800,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w11d03s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "title": "Tu primer gran logro",
+      "focus": "Confía en el proceso y disfruta la última sesión.",
+      "sessions": [
+        {
+          "id": "primer-paso-w12-d01",
+          "week": 12,
+          "day": 1,
+          "sequence": 34,
+          "title": "Semana 12 · Día 1",
+          "name": "Rodaje cómodo",
+          "difficulty": "recovery",
+          "effortScale": 1,
+          "estimatedMinutes": 35.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1500,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2100
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 25.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 35.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w12d01s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d01s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1500,
+              "instruction": "Trote muy cómodo. Debes poder conversar.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d01s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w12-d02",
+          "week": 12,
+          "day": 2,
+          "sequence": 35,
+          "title": "Semana 12 · Día 2",
+          "name": "Preparación final",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 38.0,
+          "momentCount": 5,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1500,
+            "walkSeconds": 180,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2280
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 25.0,
+            "walkMinutes": 3.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 38.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w12d02s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d02s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1200,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d02s03",
+              "order": 3,
+              "type": "walk",
+              "title": "Caminar",
+              "durationSeconds": 180,
+              "instruction": "Recuperación activa. Mantente en movimiento.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d02s04",
+              "order": 4,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 300,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d02s05",
+              "order": 5,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        },
+        {
+          "id": "primer-paso-w12-d03",
+          "week": 12,
+          "day": 3,
+          "sequence": 36,
+          "title": "Semana 12 · Día 3",
+          "name": "Meta: 30 minutos",
+          "difficulty": "easy_to_moderate",
+          "effortScale": 2,
+          "estimatedMinutes": 40.0,
+          "momentCount": 3,
+          "totals": {
+            "warmupSeconds": 300,
+            "runSeconds": 1800,
+            "walkSeconds": 0,
+            "cooldownSeconds": 300,
+            "totalSeconds": 2400
+          },
+          "preview": {
+            "warmupMinutes": 5.0,
+            "runMinutes": 30.0,
+            "walkMinutes": 0.0,
+            "cooldownMinutes": 5.0,
+            "totalMinutes": 40.0
+          },
+          "completion": {
+            "xp": 100,
+            "countsTowardWeeklyStreak": true
+          },
+          "segments": [
+            {
+              "id": "w12d03s01",
+              "order": 1,
+              "type": "warmup",
+              "title": "Calentamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina a paso ligero y prepara el cuerpo.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d03s02",
+              "order": 2,
+              "type": "run",
+              "title": "Correr",
+              "durationSeconds": 1800,
+              "instruction": "Trote suave y controlado. No busques velocidad.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            },
+            {
+              "id": "w12d03s03",
+              "order": 3,
+              "type": "cooldown",
+              "title": "Enfriamiento",
+              "durationSeconds": 300,
+              "instruction": "Camina suave, respira y deja bajar el pulso.",
+              "audioCueStart": true,
+              "audioCueEnd": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
